@@ -18,6 +18,12 @@ Describe: pigLatin()
   pigLatin(word);
   Expected Output: "omfortc"
 
+  Test: "It will add ay to the after the consonant placed at the end of a word that starts with a consonant"
+  Code:
+  const word = comfort;
+  pigLatin(word);
+  Expected Output: "omfort-cay"
+
 
 
 

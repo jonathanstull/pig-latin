@@ -20,8 +20,7 @@ function pigLatin(word) {
   return pigLatinStr;
 
   } else if (findConsonant(word) === true) {
-    pigLatinStr = word.slice(1, word.length) + firstLetter;
-    
+    pigLatinStr = word.slice(1, word.length) + "-" + firstLetter + "ay";
     console.log(pigLatinStr);
   };
   return pigLatinStr;
