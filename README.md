@@ -24,6 +24,14 @@ Describe: pigLatin()
   pigLatin(word);
   Expected Output: "omfort-cay"
 
+  Test: "If a word starts with 'qu,' it will move qu to the end of the word and add 'ay'"
+  Code:
+  const word = quick
+  pigLatin(word);
+  Expected Output: "ick-quay"
+
+  
+
 
 
 
