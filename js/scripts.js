@@ -36,3 +36,5 @@ function pigLatin(word) {
   };
   return pigLatinStr;
 }
+
+// Mike Krzyzewski --> ike-May ewski-Krzyzay
