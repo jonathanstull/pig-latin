@@ -12,6 +12,8 @@ Describe: pigLatin()
   Code: pigLatin("a"); 
   Expected Output: "away"
 
+  Test: "
+
 
 
 
