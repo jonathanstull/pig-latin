@@ -12,7 +12,11 @@ Describe: pigLatin()
   Code: pigLatin("a"); 
   Expected Output: "away"
 
-  Test: "
+  Test: "It will move the first consonant of a word to the end of the word."
+  Code:
+  const word = comfort;
+  pigLatin(word);
+  Expected Output: "omfortc"
 
 
 
