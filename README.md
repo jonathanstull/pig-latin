@@ -18,19 +18,25 @@ Describe: pigLatin()
   pigLatin(word);
   Expected Output: "omfortc"
 
-  Test: "It will add ay to the after the consonant placed at the end of a word that starts with a consonant"
+  Test: "It will add ay after the consonant placed at the end of a word that starts with a consonant"
   Code:
   const word = comfort;
   pigLatin(word);
   Expected Output: "omfort-cay"
 
-  Test: "If a word starts with 'qu,' it will move qu to the end of the word and add 'ay'"
+  Test: "It will add ay after two consonants placed at the end of the word that starts with those consonants"
+  Code:
+  const word = store;
+  pigLatin(word);
+  Expected Output: "ore-stay"
+
+  <!-- Test: "If a word starts with 'qu,' it will move qu to the end of the word and add 'ay'"
   Code:
   const word = quick
   pigLatin(word);
-  Expected Output: "ick-quay"
+  Expected Output: "ick-quay" -->
 
-  
+
 
 
 
