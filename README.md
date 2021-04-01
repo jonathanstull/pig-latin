@@ -60,4 +60,11 @@ After you've written passing tests for this code, tackle the exceptions to the r
 Then, when your application can successfully translate single words, work on translating entire sentences.
 
 
-ps
+pseudocode:
+Function purpose: Take all consonants from begining of word and move to the end
+Argument: string
+
+Helper function: determine number of consonants at begining of word
+let numConsts = number of consonants 
+
+

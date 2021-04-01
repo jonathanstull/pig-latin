@@ -72,10 +72,11 @@ function findNumConsonants(word) {
         // Check for a vowel here
         if (currentLetter === consonant[n]) {
           numConsonants++; 
-        }
+        };
       };
-    }
-  }
+    };
+    return numConsonants;
+  };
 }
 
 
